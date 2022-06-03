@@ -1,0 +1,187 @@
+/* IMPOSTAZIONI GENERALI */
+body {
+    color: #000;
+    
+    line-height: 1.8rem;
+    font-family: 'Fira Sans', sans-serif;
+}
+h1 {
+    font-size: 3rem;
+    color: white;
+    line-height: 3.5rem;
+    
+}
+h2 {
+    
+        text-align: center;
+        font-size: 2rem;
+        padding: 2rem;
+        line-height: 2rem;
+    }
+
+
+p {
+    font-size: 1rem;
+    color: white;
+    padding-top: 2rem;
+}
+
+.pulsante {
+    font-size: 1.5rem;
+    color: white;
+    padding: 0.8rem 1.2rem;
+    margin-top: 1.5rem;
+    border-style: none;
+}
+ /*colori sfondo*/
+
+header {
+    box-shadow: 2px 2px 8px rgb(0, 0, 0, 0.3);
+    background-color: white;
+    
+}
+.pulsante {
+     background-image: linear-gradient(to right, #6cc1e2, #392f7a);
+}
+#scrivici {
+    background-color: #0c0633;
+}
+footer {
+    background-color: rgb(238, 238, 238);
+}
+
+/*header*/
+
+#head {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;                      
+    background-repeat: no-repeat;
+    background-position: center center; 
+    text-align: left;
+    padding: 2rem;
+    text-shadow: 4px 4px 6px #0000008c;
+}
+header p {
+    color: white;
+}
+#bar {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+
+
+/*main*/
+main p {
+    color: #000;
+    text-align: center;
+    padding: 0rem 2rem;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+    line-height: 2rem;
+}
+#scrivici h1  {
+    font-size: 2.5rem;
+    color: white;
+    line-height: 2.5rem;
+    padding: 6rem 1.5rem 1rem 1.5rem;
+    text-align: center;
+}
+#scrivici p {
+    color: white;
+    font-size: 1rem;
+}
+.scrivici {
+    margin-left: 25vw;
+    width: 50%;
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+    
+}
+/*article*/
+article img {
+   width: 20rem;
+   padding-top: 2rem;
+   padding-left: 2rem;
+   
+}
+article h2 {
+    padding: 0.5rem;
+}
+p {
+    color: #000;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+/*footer*/
+footer {
+    padding: 2rem;
+    
+}
+footer h2 {
+    padding-left: 0.5rem;
+    font-size: 1.5rem;
+}
+footer p {
+    text-align: left;
+}
+#piace {
+    
+    font-size: 1.5rem;
+}
+
+input, button { 
+    width: 100%; }
+input {
+    height: 2.5rem;
+}
+#titoletto {
+    width: 90%;
+    margin-left: 3rem;
+}
+/*media*/
+@media screen and (min-width: 768px){
+
+   
+    
+    .scrivici {
+       width: 8rem;
+       margin-left: 20rem;
+    }
+    .pulsante {
+        width: 10rem;
+    }
+    
+   main {
+       display: flex;
+   }
+    main section {
+        justify-content: center;
+    }
+
+   #footer {
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+   }
+   #piace {
+       order: 2;
+   }
+   #primo {
+       order: 1;
+   }
+   #section {
+       display: flex;
+       justify-content: space-around;
+       align-content: center;
+   }
+   
+
+}
+
+
